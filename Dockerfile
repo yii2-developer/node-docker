@@ -1,4 +1,4 @@
-FROM library/node:latest
+FROM node:latest
 
 RUN npm install -g bower grunt-cli gulp-cli \
     && echo '{ "allow_root": true }' > /root/.bowerrc
